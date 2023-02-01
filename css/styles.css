@@ -522,6 +522,7 @@ body {
     border-radius: 4px;
     color: rgba(255, 255, 255, 0.6);
     outline: transparent;
+	padding-left: 16px;
 }
 
 .online-input::placeholder{
@@ -530,7 +531,6 @@ body {
     line-height: 2;
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, 0.6);
-    padding-left: 16px;
 }
 .online-input-input:focus {
 	outline: none;
