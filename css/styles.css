@@ -450,7 +450,7 @@ body {
 .footer-wrap{
 	display: flex;
 	justify-content: flex-start;
-	gap: 120px;
+	/*gap: 120px;*/
 }
 
 .footer-nav-logo{
@@ -475,6 +475,10 @@ body {
 
 .footer-nav-logo-span {
 	color: var(--primary-brand-color);
+}
+
+.footer-soc{
+	margin-left: 120px;
 }
 
 .footer-text{
@@ -504,6 +508,10 @@ body {
 .footer-soc .soc-link:hover,
 .footer-soc .soc-link:focus{
 	background-color: var(--success-color);
+}
+
+.footer-subscribe{
+	margin-left: 80px;
 }
 
 .online-input{
